@@ -1,6 +1,9 @@
-# holman does dotfiles
+# the other holman does dotfiles 
 
 ## dotfiles
+
+These files were forked and modified to my liking. They were forked from @holman's
+repo. All the info below is based on his documentation.
 
 Your dotfiles are how you personalize your system. These are mine. The very
 prejudiced mix: OS X, zsh, Ruby, Rails, git, homebrew, rbenv, vim. If you
