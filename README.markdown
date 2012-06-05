@@ -2,7 +2,7 @@
 
 ## dotfiles
 
-These files were forked and modified to my liking. They were forked from @holman's
+NOTE: These files were forked and modified to my liking. They were forked from [@holman's](https://github.com/holman)
 repo. All the info below is based on his documentation.
 
 Your dotfiles are how you personalize your system. These are mine. The very
@@ -16,12 +16,12 @@ up into the main areas I used (Ruby, git, system libraries, and so on), so I
 structured the project accordingly.
 
 If you're interested in the philosophy behind why projects like these are
-awesome, you might want to [read my post on the
+awesome, you might want to [read zach holmans post on the
 subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
 
 ## install
 
-- `git clone git://github.com/holman/dotfiles ~/.dotfiles`
+- `git clone --recursive git@github.com:zenom/dotfiles-new.git ~/.dotfiles`
 - `cd ~/.dotfiles`
 - `rake install`
 
