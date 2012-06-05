@@ -87,3 +87,5 @@ function! StripWhitespace ()
 endfunction
 map ,s :call StripWhitespace ()<CR>
 
+
+colorscheme badwolf
