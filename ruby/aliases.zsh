@@ -1,4 +1,5 @@
-alias r='rbenv local 1.8.7-p358'
+alias r18='rbenv local 1.8.7-p358'
+alias r19='rbenv local 1.9.3-p194'
 
 alias rc='bundle exec rails console'
 alias rs='bundle exec rails server'
