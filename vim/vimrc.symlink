@@ -95,3 +95,6 @@ syntax on
 set background=dark
 let g:badwolf_html_link_underline = 0
 colorscheme badwolf
+
+autocmd vimenter * if !argc() | NERDTree | endif
+nmap <silent> <C-D> :NERDTreeToggle<CR>
