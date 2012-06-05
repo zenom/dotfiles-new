@@ -88,4 +88,10 @@ endfunction
 map ,s :call StripWhitespace ()<CR>
 
 
+" ---------------------------------------------------------------------------
+"  Color scheme stuff.
+" ---------------------------------------------------------------------------
+syntax on
+set background=dark
+let g:badwolf_html_link_underline = 0
 colorscheme badwolf
