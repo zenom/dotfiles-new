@@ -8,7 +8,7 @@
 # install this to the correct location by running the project's main `rake`
 # task.
 [user]
-        name = Zach Holman
+        name = Andy Holman
         email = your@example.com
 [alias]
         co = checkout
@@ -26,6 +26,6 @@
 [apply]
         whitespace = nowarn
 [github]
-        user = holman
+        user = zenom
 [mergetool]
         keepBackup = false
