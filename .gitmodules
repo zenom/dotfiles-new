@@ -37,3 +37,6 @@
 [submodule "vim/vim.symlink/bundle/vim-align"]
 	path = vim/vim.symlink/bundle/vim-align
 	url = git://github.com/tsaleh/vim-align.git
+[submodule "vim/vim.symlink/bundle/delimitMate"]
+	path = vim/vim.symlink/bundle/delimitMate
+	url = git://github.com/Raimondi/delimitMate.git
