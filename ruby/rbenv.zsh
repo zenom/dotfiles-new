@@ -1,6 +1,8 @@
 # rehash shims
 rbenv rehash 2>/dev/null
 
+eval "$(rbenv init -)"
+
 # shell thing
 rbenv() {
   command="$1"
