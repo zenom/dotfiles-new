@@ -49,6 +49,7 @@ nmap tn  :tabnext<CR>
 nmap tp  :tabprevious<CR>
 
 nmap <C-u> :NERDTreeToggle<CR>
+nmap <F8> :TagbarToggle<CR>
 
 
 " ----------------------------------------------------------------------------
