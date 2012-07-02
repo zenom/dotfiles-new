@@ -1,6 +1,6 @@
 export EDITOR='mvim -w'
 
-export CC='/usr/bin/gcc'
+#export CC='/usr/bin/gcc'
 
 # Used for autojump
 if [ -f `brew --prefix`/etc/autojump ]; then
