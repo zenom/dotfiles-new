@@ -18,3 +18,5 @@ vendor/cache/*
 **.orig
 rerun.txt
 pickle-email-*.html
+vendor/bundle/*
+
