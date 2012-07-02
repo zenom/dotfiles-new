@@ -4,6 +4,7 @@ alias r19='rbenv local 1.9.3-p194'
 alias rc='bundle exec rails console'
 alias rs='bundle exec rails server'
 
+alias pryr="pry -r ./config/environment"
 alias b='bundle'
 alias bi='b install --path vendor/bundle'
 alias be='bundle exec'
