@@ -68,7 +68,7 @@ dependency, but if you install them they'll make your life a bit more like a
 bubble bath.
 
 - If you want some more colors for things like `ls`, install grc: `brew install
-  grc`.
+  grc`. (NOTE: Run install.sh to install this and other items.)
 - If you install the excellent [rbenv](https://github.com/sstephenson/rbenv) to
   manage multiple rubies, your current branch will show up in the prompt. Bonus.
 
