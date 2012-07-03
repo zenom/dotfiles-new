@@ -1,7 +1,17 @@
 #!/bin/sh
-echo "What ticket number:"
-read ticket 
-echo "Commit message for ticket:"
-read message
-echo "Running git add -A && git commit -m $ticket $message"
-git add -A && git commit  -m "$ticket $message"
+# Get the branch name
+branch_name=$(git branch | grep "*" | sed "s/* //")
+if [[ "$branch_name" == feature* ]]
+then
+  # ticket number from current branch
+  ticket=$(echo $branch_name | awk -F"/" '{print $2}')
+  message=$1
+  if [ ! -n "$message" ]; then
+    echo "ERROR: You must enter a commit message."
+  else
+    echo "Running git add -A && git commit -m '$ticket $message'"
+    git add -A && git commit  -m "$ticket $message"
+  fi
+else
+  echo "ERROR: NOT IN A FEATURE BRANCH USE A DIFFERENT COMMIT METHOD!"
+fi
