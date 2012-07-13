@@ -1,4 +1,4 @@
-export EDITOR='mvim -w'
+export EDITOR='mvim'
 
 #export CC='/usr/bin/gcc'
 
