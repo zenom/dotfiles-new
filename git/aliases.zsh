@@ -22,5 +22,5 @@ alias commit='. ~/.dotfiles/git/commit.sh'
 # Git Flow Changes
 alias feature="git flow feature"
 
-alias pull=gl
+alias pull=git-up
 alias push=gp
