@@ -14,6 +14,7 @@ alias bp='bundle package'
 alias bout='bundle-outdated'
 alias bake='be rake'
 alias shake='noglob bundle exec rake'
+alias spec='bake ctm:run_specs'
 
 alias migratep='RAILS_ENV=production bake db:migrate'
 alias migrate='RAILS_ENV=development bake db:migrate'
