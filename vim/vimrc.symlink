@@ -108,4 +108,4 @@ colorscheme tomorrow-night
 autocmd vimenter * if !argc() | NERDTree | endif
 nmap <silent> <C-D> :NERDTreeToggle<CR>
 
-set guifont=Monaco:h10
+set guifont=Monaco:h12
