@@ -54,4 +54,8 @@ task :uninstall do
   end
 end
 
+desc 'Update the submodules.'
+task :update do
+  `git submodule foreach git pull origin master`
+end
 task :default => 'install'
