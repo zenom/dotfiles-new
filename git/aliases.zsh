@@ -24,6 +24,8 @@ alias gcd="git checkout "
 #alias feature="git flow feature"
 #alias feature='. ~/.dotfiles/git/feature.sh'
 alias ticket='~/.dotfiles/git/new_ticket.rb'
+alias ctmwebb='~/.dotfiles/git/new_ticket.rb -p CTMWEB -b'
+alias ctmwebf='~/.dotfiles/git/new_ticket.rb -p CTMWEB -f'
 
 alias pull=git-up
 alias push=gp
