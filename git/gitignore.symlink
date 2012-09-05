@@ -8,6 +8,7 @@ capybara-*.html
 .rspec
 /.bundle
 /vendor/bundle
+vendor/cache/*
 /log/*
 /tmp/*
 /db/*.sqlite3
@@ -19,3 +20,5 @@ rerun.txt
 pickle-email-*.html
 vendor/bundle/*
 .DS_Store
+.rbenv-version
+.fse-out.log

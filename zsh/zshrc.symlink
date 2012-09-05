@@ -1,6 +1,12 @@
 # shortcut to this dotfiles path is $ZSH
 export ZSH=$HOME/.dotfiles
 
+# Ruby Stuff
+RUBYHEAPMIN_SLOTS=600000
+RUBYGCMALLOC_LIMIT=59000000
+RUBYFREEMIN=100000
+
+
 # your project folder that we can `c [tab]` to
 export PROJECTS=~/Development
 

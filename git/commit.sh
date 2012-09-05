@@ -1,7 +1,7 @@
 #!/bin/sh
 # Get the branch name
 branch_name=$(git branch | grep "*" | sed "s/* //")
-if [[ "$branch_name" == feature* ]]
+if [[ "$branch_name" == (feature|bugfix)*]]
 then
   # ticket number from current branch
   ticket=$(echo $branch_name | awk -F"/" '{print $2}')
