@@ -21,8 +21,6 @@ alias commit='~/.dotfiles/git/commit.rb'
 alias gcd="git checkout "
 
 # Git Flow Changes
-#alias feature="git flow feature"
-#alias feature='. ~/.dotfiles/git/feature.sh'
 alias ticket='~/.dotfiles/git/new_ticket.rb'
 alias ctmwebb='~/.dotfiles/git/new_ticket.rb -p CTMWEB -b'
 alias ctmwebf='~/.dotfiles/git/new_ticket.rb -p CTMWEB -f'
