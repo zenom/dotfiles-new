@@ -24,6 +24,9 @@ alias gcd="git checkout "
 alias ticket='~/.dotfiles/git/new_ticket.rb'
 alias ctmwebb='~/.dotfiles/git/new_ticket.rb -p CTMWEB -b'
 alias ctmwebf='~/.dotfiles/git/new_ticket.rb -p CTMWEB -f'
+alias tssb='~/.dotfiles/git/new_ticket.rb -p TSS -b'
+alias tssf='~/.dotfiles/git/new_ticket.rb -p TSS -f'
 
 alias pull=git-up
 alias push=gp
+
