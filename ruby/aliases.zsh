@@ -6,7 +6,7 @@ alias rs='bundle exec rails server'
 
 alias pryr="pry -r ./config/environment"
 alias b='bundle'
-alias bi='b install --path vendor/bundle'
+alias bi='b install --path vendor/bundle --binstubs=.bundle/binstubs'
 alias be='bundle exec'
 alias bl='bundle list'
 alias bu='bundle update'
@@ -15,6 +15,7 @@ alias bout='bundle-outdated'
 alias bake='be rake'
 alias shake='noglob bundle exec rake'
 alias spec='bake ctm:run_specs'
+alias rmgems='gem list | cut -d" " -f1 | xargs gem uninstall -aIx'
 
 alias migratep='RAILS_ENV=production bake db:migrate'
 alias migrate='RAILS_ENV=development bake db:migrate'
