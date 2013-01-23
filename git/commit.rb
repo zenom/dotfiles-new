@@ -17,10 +17,10 @@ abort "You must enter a commit message.".red if message.nil?
 # if they are in a feature/bugfix branch add ticket #
 if prefix_names.include?(info[0])
     # its a prefixed branch
-    commit_message = "[#{info[1]}] #{message.strip}"
+    commit_message = "#{info[1]} #{message.strip}"
 else
     # its master etc., just use the branch name
-    commit_message = "[#{branch_name}] #{message.strip}"
+    commit_message = "#{branch_name} #{message.strip}"
 end
 
 cmd = "git add -A && git commit -m '#{commit_message}'"

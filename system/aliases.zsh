@@ -10,3 +10,4 @@ then
 fi
 
 alias edit="subl ."
+alias stroke="/Applications/Utilities/Network\ Utility.app/Contents/Resources/stroke"
