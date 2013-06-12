@@ -33,3 +33,10 @@ precmd () {
       echo -ne "\e]2;${tab_label}\a" # set window title to full string
         echo -ne "\e]1;${tab_label: -24}\a" # set tab title to rightmost 24 characters
 }
+
+eval "$(rbenv init -)"
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+export AWS_ACCESS_KEY_ID=AKIAJEVQOJP4KDCX7HFQ
+export AWS_SECRET_ACCESS_KEY=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
