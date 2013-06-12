@@ -6,7 +6,7 @@ alias rs='bundle exec rails server'
 
 alias pryr="pry -r ./config/environment"
 alias b='bundle'
-alias bi='b install --path vendor/bundle --binstubs=.bundle/binstubs'
+alias bi='b install --path .bundle --binstubs=.bundle/binstubs'
 alias be='bundle exec'
 alias bl='bundle list'
 alias bu='bundle update'
