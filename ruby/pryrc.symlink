@@ -21,7 +21,7 @@ class Hash
   end
 end
 
-if defined?(Rails) && Rails.env
+if defined?(ActiveRecord) && defined?(Rails) && Rails.env
   require 'logger'
 
   ActiveRecord::Base.logger = Logger.new(STDOUT)
@@ -44,4 +44,7 @@ if defined?(Rails) && Rails.env
   extend Rails::ConsoleMethods
 
   Hirb.enable
+else
+  # https://github.com/pry/pry/wiki/Setting-up-Rails-or-Heroku-to-use-Pry#wiki-rails32up
+  extend Rails::ConsoleMethods
 end
