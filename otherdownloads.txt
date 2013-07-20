@@ -1,2 +1,5 @@
 Alfred Theme: Light & Blue
 Custom Searches: Git Hub, Mac App Store & API Dock
+
+Source Code Pro - Extra Light Font.
+Install iterm theme.

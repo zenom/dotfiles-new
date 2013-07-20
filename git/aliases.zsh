@@ -30,3 +30,6 @@ alias tssf='~/.dotfiles/git/new_ticket.rb -p TSS -f'
 alias pull=git-up
 alias push=gp
 
+alias standup="git log --since '1 day ago' --no-merges --pretty=format':%C(yellow)%h %aN%n %B%n' --oneline --author Andrew"
+alias sufriday="git log --since '4 day ago' --no-merges --pretty=format':%C(yellow)%h %aN%n %B%n' --oneline --author Andrew"
+alias release="git checkout $(git for-each-ref --format='%(refname:short)' | grep ^release | tail -n 1)"
